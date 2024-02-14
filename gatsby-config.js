@@ -12,13 +12,7 @@ module.exports = {
     'gatsby-transformer-remark',
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-     {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `notes`,
-      path: `${__dirname}/src/notes/`, // Path to your images directory
-    },
-  },
+    `gatsby-plugin-image`,
   {
     resolve: `gatsby-source-filesystem`,
     options: {
